@@ -43,7 +43,7 @@
     <body style = "background-color:#FFFFFF;margin-left:50px;">
     <hr>
       <h3 id = "Abstract">Abstract</h3>
-      <p class = "ex1">
+      <p class = "ex1" id = "Abstract_InText">
           <pre>
             This article will guide you through the evolving concept of dimensions. We will begin by constructing our familiar world from the simplest possible elements,
             moving from a dimensionless point to the three-dimensional space we call home. From there, we will venture into the fourth dimension, exploring how Albert
@@ -55,7 +55,7 @@
     <hr>
     <hr>
       <h3 id = "Introduction">Introduction</h3>
-      <p class = "ex1">
+      <p class = "ex1" id = "Introduction_InText">
           <pre>
             The word "dimension" evokes images of parallel universes, yet in physics and mathematics, it denotes a fundamental degree of freedom: an independent coordinate
             required to specify a position in space. We intuitively navigate three spatial dimensions—left/right, forward/backwards, up/down—sufficient to locate any object,
@@ -71,7 +71,7 @@
     <hr>
     <hr>
       <h3 id = "Analysis and Discussion">Analysis and Discussion</h3>
-      <p class = "ex1">
+      <p class = "ex1" id = "AnalysisAndDiscussion_InText">
           <pre>
             ...
           </pre>
@@ -99,7 +99,7 @@
     </table>
     <hr>
       <h3 id = "References">References</h3>
-      <p>
+      <p id = "References_InText">
         <pre>
           Hebdige, T. (2025) '2: Dimensional analysis'. *ENG0013.* *Principles Of Engineering & Physical Sciences.* University of Surrey. Unpublished.
           
@@ -200,7 +200,7 @@
         // Calculate the sum of all selected sections
         const totalWordCount = AbstractCount + IntroductionCount + AnalysisAndDiscussionCount + ReferencesCount;
         // Display the total word count
-        document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
+        document.getEl ementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
       }
       // Run the function for specific sections and display total count when the page loads
       window.onload = displayTotalWordCount;
