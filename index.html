@@ -193,10 +193,10 @@
       // Function to calculate and display total word count from selected sections
       function displayTotalWordCount() {
         // Calculate word count for each section and accumulate the total
-        const AbstractCount = displayWordCount("Abstract");
-        const IntroductionCount = displayWordCount("Introduction");
-        const AnalysisAndDiscussionCount = displayWordCount("Analysis and discussion");
-        const ReferencesCount = displayWordCount("References");
+        const AbstractCount = displayWordCount("Abstract_InText");
+        const IntroductionCount = displayWordCount("Introduction_InText");
+        const AnalysisAndDiscussionCount = displayWordCount("Analysis and discussion_InText");
+        const ReferencesCount = displayWordCount("References_InText");
         // Calculate the sum of all selected sections
         const totalWordCount = AbstractCount + IntroductionCount + AnalysisAndDiscussionCount + ReferencesCount;
         // Display the total word count
