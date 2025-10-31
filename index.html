@@ -43,8 +43,8 @@
     <body style = "background-color:#FFFFFF;margin-left:50px;">
     <hr>
       <h3 id = "Abstract">Abstract</h3>
-      <p class = "ex1" id = "Abstract_InText">
-          <pre>
+      <p class = "ex1">
+          <pre id = "Abstract_InText">
             This article will guide you through the evolving concept of dimensions. We will begin by constructing our familiar world from the simplest possible elements,
             moving from a dimensionless point to the three-dimensional space we call home. From there, we will venture into the fourth dimension, exploring how Albert
             Einstein and Hermann Minkowski reshaped our understanding of reality by weaving space and time together into a single, dynamic fabric. We will take a leap into
@@ -55,8 +55,8 @@
     <hr>
     <hr>
       <h3 id = "Introduction">Introduction</h3>
-      <p class = "ex1" id = "Introduction_InText">
-          <pre>
+      <p class = "ex1">
+          <pre id = "Introduction_InText">
             The word "dimension" evokes images of parallel universes, yet in physics and mathematics, it denotes a fundamental degree of freedom: an independent coordinate
             required to specify a position in space. We intuitively navigate three spatial dimensions—left/right, forward/backwards, up/down—sufficient to locate any object,
             from a pen tip to a galactic core.
@@ -71,8 +71,8 @@
     <hr>
     <hr>
       <h3 id = "Analysis and Discussion">Analysis and Discussion</h3>
-      <p class = "ex1" id = "AnalysisAndDiscussion_InText">
-          <pre>
+      <p class = "ex1">
+          <pre  id = "AnalysisAndDiscussion_InText">
             ...
           </pre>
       </p>
@@ -99,8 +99,8 @@
     </table>
     <hr>
       <h3 id = "References">References</h3>
-      <p id = "References_InText">
-        <pre>
+      <p>
+        <pre  id = "References_InText">
           Hebdige, T. (2025) '2: Dimensional analysis'. *ENG0013.* *Principles Of Engineering & Physical Sciences.* University of Surrey. Unpublished.
           
           Alan D.Clark (2025) *Physics in 5 Dimensions* <a herf = "https://www.physics-in-5-dimensions.com/golden-age/einstein-minkowski-4-5-dimensional-space/">Alan D.Clark (2025)</a>
@@ -195,7 +195,7 @@
         // Calculate word count for each section and accumulate the total
         const AbstractCount = displayWordCount("Abstract_InText");
         const IntroductionCount = displayWordCount("Introduction_InText");
-        const AnalysisAndDiscussionCount = displayWordCount("Analysis and discussion_InText");
+        const AnalysisAndDiscussionCount = displayWordCount("AnalysisAndDiscussion_InText");
         const ReferencesCount = displayWordCount("References_InText");
         // Calculate the sum of all selected sections
         const totalWordCount = AbstractCount + IntroductionCount + AnalysisAndDiscussionCount + ReferencesCount;
