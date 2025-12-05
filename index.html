@@ -129,6 +129,12 @@
 
             <tr>
 
+                <td><a href = "String Theory">String Theory</td>
+
+            </tr>
+
+            <tr>
+
                 <td><a href = "#References">References</td>
 
             </tr>
@@ -261,17 +267,18 @@
                 A Wiley Brand.
                 
                 Minkowski Spacetime (1908):
-                (Einstein relatively easy, 2016–2017)shows that while Einstein provided the physics, it was his former professor, mathematician Hermann Minkowski, who provided the geometric
-                framework. In a famous 1908 address, Minkowski declared: "Henceforth space by itself, and time by itself, are doomed to fade away into mere shadows, and only a kind of union
-                of the two will preserve an independent reality".
+                (Einstein relatively easy, 2016–2017)shows that while Einstein provided the physics, it was his former professor, mathematician Hermann Minkowski, who provided the
+                geometric framework. In a famous 1908 address, Minkowski declared: "Henceforth space by itself, and time by itself, are doomed to fade away into mere shadows, and only a
+                kind of union of the two will preserve an independent reality".
                 Minkowski formalized the universe as a four-dimensional manifold known as Minkowski Space.
-                  The 4D Coordinate: An event in this universe is defined by four coordinates:		(t, x, y, z).
-                  The Spacetime Interval: In 3D Euclidean space, the distance $d$ between two 	points is calculated using the Pythagorean theorem: d^2 = x^2 + y^2 + z^2. In 	Minkowski 4D space,
-                  the "distance" (or interval s) between two events blends space and time, but with a critical difference in sign: s^2 = (ct)^2 - (x^2 + y^2 + z^2).
+                  . The 4D Coordinate: An event in this universe is defined by four coordinates: (t, x, y, z).
+                  . The Spacetime Interval: In 3D Euclidean space, the distance $d$ between two 	points is calculated using the Pythagorean theorem: d^2 = x^2 + y^2 + z^2. In Minkowski
+                    4D space, the "distance" (or interval s) between two events blends space and time, but with a critical difference in sign: s^2 = (ct)^2 - (x^2 + y^2 + z^2).
                 
                 General Relativity: Curving the Fourth Dimension:
                 Einstein later expanded this 4D framework to include gravity in his theory of General Relativity. He proposed that mass and energy do not merely exist in spacetime but actually
-                distort it. Gravity is not a force pulling objects together; it is the curvature of the 4D spacetime fabric, "matter tells spacetime how to curve, and curved spacetime tells matter how to move”. Research by Overduin (2007) published on Stanford University’s site.
+                distort it. Gravity is not a force pulling objects together; it is the curvature of the 4D spacetime fabric, "matter tells spacetime how to curve, and curved spacetime tells
+                matter how to move”. Research by Overduin (2007) published on Stanford University’s site.
 
 
 
@@ -280,7 +287,35 @@
         </p>
 
         <hr>
+        
+        <hr>
 
+        <h3 id = "String Theory">String Theory</h3>
+
+        <p class = "ex1">
+
+            <pre id = "String Theory_InText">
+
+                Science ABC explained the basics of string theory in simple words for beginners. (Cambridge String Theory Explained in Simple Words for Beginners, 2025).
+                String theory is a theoretical framework in physics that endeavors to achieve a complete unification of the four fundamental forces of nature: gravity, electromagnetism,
+                and the strong and weak nuclear forces.
+                
+                The core premise of string theory is that the most fundamental building blocks of the universe are not point-like, zero-dimensional particles (such as electrons or quarks),
+                but rather one-dimensional entities known as "strings." These strings oscillate at various frequencies, and these distinct vibrational patterns are what manifest as the
+                properties—like mass and charge—of different particles.
+                
+                One of string theory's most significant implications is the need for additional spatial dimensions. While we perceive a three-dimensional world, the theory predicts the
+                existence of up to ten spatial dimensions (plus one for time). The extra dimensions are theorised to be curled up to an extent so small that they cannot be directly observed.
+                
+                Ultimately, string theory's goal is to construct a quantum theory of gravity by successfully integrating Einstein's general relativity with the principles of quantum mechanics.
+                It thus offers profound potential insights into the nature of spacetime, the very origins of the universe, and the unification of all physical laws into a single, comprehensive
+                "theory of everything."
+
+            </pre>
+
+        </p>
+
+        <hr>
 
 
 
@@ -441,9 +476,10 @@
 
                 const SpacialDimentionsCount = displayWordCount('Spacial dimentions_InText');
 
-                const FourthDimensionTimeCount = displayWordCount('Fourth Dimension- Time');
+                const FourthDimensionTimeCount = displayWordCount('Fourth Dimension- Time_InText');
+                const StringTheoryCount = displayWordCount('String Theory_InText');
 
-                const TotalWordCount = IntroductionCount + SpacialDimentionsCount + FourthDimensionTimeCount;
+                const TotalWordCount = IntroductionCount + SpacialDimentionsCount + FourthDimensionTimeCount + StringTheoryCount;
 
                 document.getElementById('totalWordCount').innerText = `Total Word Count: ${TotalWordCount}`;
 
